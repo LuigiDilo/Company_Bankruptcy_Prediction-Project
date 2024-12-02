@@ -1,0 +1,39 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.eggs/
+*.pyd
+
+# Environment specific
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+*.env  # Se hai file di configurazione .env per variabili sensibili
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (se non vuoi tracciare dataset di grandi dimensioni)
+data/
+*.csv
+*.zip
+*.tar.gz
+
+# Log files
+*.log
+*.out
+*.err
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Git specific
+.git/
+
+esercizi_daescludere.ipynb 
